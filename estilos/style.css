@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49e89d;
+    --lilas: #5f2c82;
+    --azul: #94CFCD;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: blueviolet;
+    height: 80vh;
+}
+main {
+    border-radius: 20px;
+    margin-top: 50px;
+}
+section#tela {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+section#imagem {
+    background: var(--verde) url(../imagens/metal.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+form div {
+    background-color: var(--lilas);
+    padding: 3px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5px;
+}
+input.campo {
+    background-color: var(--azul);
+    height: 35px;
+    border-radius: 10px;
+    width: initial;
+}
+input {
+    height: 40px;
+    width: 95%;
+}
+a {
+    display: inline-block;
+    height: 40px;
+    width: 94%;
+    text-decoration: none;
+    border: 1px solid 
+}
+
+
+
