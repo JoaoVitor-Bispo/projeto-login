@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49e89d;
+    --lilas: #5f2c82;
+    --azul: #94CFCD;
+}    
+
+* {
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(to bottom, var(--lilas), #4F7B94, #499C9C);
+    height: 100vh
+}
+main {
+    width: 80vw;
+    height: 280px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+}
+section#tela {
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    left: 30.2%;
+    top: 50%;
+    border-radius: 0px 20px 20px 0px;
+    transform: translate(-0%, -50%);
+
+}
+section#tela h1 {
+    font-size: 30px
+}
+section#tela p {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+input.campo {
+    height: 37px;
+    border-radius: 10px;
+    padding-left: 5px;
+
+}
+input.campo:active {
+    background-color: white;
+}
+section#imagem {
+    width: 225px;
+    height: calc(100% + 0.7px);
+    border-radius: 20px 0px 0px 20px;
+}

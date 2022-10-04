@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49e89d;
+    --lilas: #5f2c82;
+    --azul: #94CFCD;
+}    
+
+* {
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(to bottom, var(--lilas), #4F7B94, #499C9C);
+    height: 99.9vh
+}
+main {
+    width: 950px;
+    height: 350px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+}
+section#tela {
+    width: 48%;
+    height: 94.5%;
+    border-radius: 20px 0px 0px 20px;
+
+}
+section#tela h1 {
+    font-size: 32px
+}
+section#tela p {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+input.campo {
+    height: 37px;
+    border-radius: 10px;
+    padding-left: 5px;
+
+}
+input.campo:active {
+    background-color: white;
+}
+section#imagem {
+    width: 50%;
+    height: calc(100% + 0.7px);
+    position: absolute;
+    left: 50%;
+    border-radius: 0px 20px 20px 0px;
+}
+input#botao {
+    width: 455px;
+}
+a {
+    width: 436px;
+    border: 1px solid #49A09D;
+    padding: 8px;
+}
