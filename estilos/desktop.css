@@ -25,20 +25,19 @@ section#tela {
 
 }
 section#tela h1 {
-    font-size: 32px
+    font-size: 32px;
+    padding-bottom: 8px
 }
 section#tela p {
-    padding: 10px 0px;
+    padding: 12px 0px;
     font-size: 16px;
 }
 input.campo {
+    width: 92.5%;
     height: 37px;
     border-radius: 10px;
     padding-left: 5px;
 
-}
-input.campo:active {
-    background-color: white;
 }
 section#imagem {
     width: 50%;

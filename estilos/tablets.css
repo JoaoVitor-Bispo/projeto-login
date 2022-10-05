@@ -17,35 +17,40 @@ main {
     width: 80vw;
     height: 280px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+    border: 1px solid black;
 }
 section#tela {
     position: absolute;
-    width: 500px;
-    height: 260px;
-    left: 30.2%;
+    height: 260.5px;
+    left: 30%;
     top: 50%;
     border-radius: 0px 20px 20px 0px;
     transform: translate(-0%, -50%);
 
 }
 section#tela h1 {
-    font-size: 30px
+    font-size: 24px;
+    padding: 0px
 }
 section#tela p {
-    padding: 10px 0px;
-    font-size: 16px;
+    padding: 10px 0px 5px 0px;
+    font-size: 13px;
+}
+form div {
+    margin-top: 0px;
 }
 input.campo {
     height: 37px;
+    width: 91.5%;
     border-radius: 10px;
     padding-left: 5px;
 
 }
-input.campo:active {
-    background-color: white;
-}
 section#imagem {
-    width: 225px;
+    width: 237px;
     height: calc(100% + 0.7px);
     border-radius: 20px 0px 0px 20px;
+}
+a {
+    width: 95.5%
 }

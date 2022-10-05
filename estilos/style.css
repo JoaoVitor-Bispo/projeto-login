@@ -49,17 +49,17 @@ form div {
     margin: 5px 0px;
 }
 i {
-    display: inline;
     color: white;
     font-size: 5em;
 }
 input.campo {
-    background-color: var(--azul);
+    background-color: #8EC8D4;
     width: 85%;
     height: 35px;
     font-size: 15px;
     border: none;
     border-radius: 8px;
+    padding-left: 3px;
 }
 input#botao {
     background-color: #53AAA7;
@@ -71,6 +71,13 @@ input#botao {
     border: none;
     border-radius: 5px;
 }
+input#botao:hover {
+    background-color: #2D6462;
+    cursor: pointer;
+}
+input#botao:active {
+    background-color: rgb(34, 70, 70)
+}
 a {
     color: #2D6462;
     width: 92%;
@@ -80,6 +87,14 @@ a {
     border: 2px solid #A4D0CE;
     text-decoration: none;
     border-radius: 7px;
+}
+a:hover {
+    background-color: #6CD3CF;
+}
+a:active {
+    background-color: #54a09f;
+    color: black;
+
 }
 
 
